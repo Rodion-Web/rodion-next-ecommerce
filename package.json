@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@wix/bookings": "^1.0.446",
+    "@wix/bookings": "^1.0.343",
     "@wix/sdk": "^1.7.14",
     "@wix/stores": "^1.0.169",
     "js-cookie": "^3.0.5",

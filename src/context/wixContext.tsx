@@ -23,7 +23,6 @@ const wixClient = createClient({
 });
 
 export type WixClient = typeof wixClient;
-
 export const WixClientContext = createContext<WixClient>(wixClient);
 
 export const WixClientContextProvider = ({
