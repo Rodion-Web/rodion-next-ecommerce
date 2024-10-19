@@ -4,16 +4,11 @@ import { cookies } from "next/headers";
 
 
 export const wixClientServer  = async()=>{
-
-    
-    
     let refreshToken;
-    
     try{
         const cookieStore = cookies()
         refreshToken = JSON.parse(cookieStore.get("refreshToken")?.value || "{}");
     }catch(e) {}
-    
     const wixClient = createClient({
         modules: {
             products,
