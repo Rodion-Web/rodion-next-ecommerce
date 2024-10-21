@@ -15,8 +15,12 @@ const Navbar = () => {
         <Link href="/">
           <div className="text-2xl tracking-wide">Rodion-Web</div>
         </Link>
-        <Menu />
+        <div className="w-2/3 flex items-center justify-between gap-8">
+          <SearchBar />
+          <Menu />
+        </div>
       </div>
+
       {/* BIGGER SCREENS */}
       <div className="hidden md:flex items-center justify-between gap-8 h-full">
         {/* LEFT */}
